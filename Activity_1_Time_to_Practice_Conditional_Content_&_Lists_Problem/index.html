@@ -19,7 +19,7 @@
       <h2>Assignment</h2>
       <!-- 1) Add code to manage a list of tasks in a Vue app -->
       <!-- When clicking "Add Task" a new task with the entered text should be added -->
-      <input type="text" v-model="inputTask" required>
+      <input type="text" v-model="inputTask" placeholder="Tasks..." required>
       <button v-on:click="addTasks">Add Task</button>
       <ul v-else v-show="tn === false">
         <!-- 2) Output the list of tasks here -->
