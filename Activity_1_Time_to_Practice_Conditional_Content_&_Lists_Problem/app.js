@@ -1,4 +1,3 @@
-const app = Vue.createApp({
-});
+const app = Vue.createApp({});
 
-app.mount('#assignment')
+app.mount('#assignment');
